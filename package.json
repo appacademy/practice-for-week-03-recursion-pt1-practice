@@ -1,0 +1,22 @@
+{
+  "name": "npminstall",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appacademy/practice-for-week-03-recursion-pt1-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appacademy/practice-for-week-03-recursion-pt1-practice/issues"
+  },
+  "homepage": "https://github.com/appacademy/practice-for-week-03-recursion-pt1-practice#readme"
+}
