@@ -10,13 +10,15 @@ sumToN(1)  // returns 1
 sumToN(9)  // returns 45
 sumToN(-8)  // returns null
 ***********************************************************************/
-
-
 function sumToN(n) {
-  // Your code here
+  if (n < 0) {
+    return null;
+  } else if (n === 0) {
+    return 0;
+  } else {
+    return n + sumToN(n - 1);
+  }
 }
-
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
   module.exports = sumToN;
